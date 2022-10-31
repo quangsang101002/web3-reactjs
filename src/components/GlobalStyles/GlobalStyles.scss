@@ -1,0 +1,32 @@
+@import 'normalize.css';
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+    //bỏ gạch chân
+}
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+.App {
+    padding-right: 0px;
+}
